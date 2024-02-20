@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+body{
+    background-color: #f5f5dc;                                                     /*no-repeat não duplica a imagem */
+    background: url(/static/img/pawel-czerwinski-SD1VYMwGICo-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   /*mantem o plano de fundo fixo */
+    display: block;
+}
+
+.flash_alerta{
+    background-color: red;
+    font-size: 35px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 30%;
+}
+
+
+div#form_fundo{
+    backdrop-filter: blur(10px);
+    opacity: .9;
+    margin: 10% 25% 25% 25%;    /*margem em cada lado */
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+
+}
+
+h1{
+    color: rgb(255, 255, 255);
+}
+
+div#form_frente{
+    background-color:  #e8913a;
+    margin: 5% 10% 10% 10%;    
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+input {
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px; 
+}
+
+input:focus{    /*quando clicamos em cima do input */
+    color: black;
+}
+
+button{
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color:  #a6651b;
+    color: rgb(0, 0, 0);
+}
+
+button:hover{   /*quando passamos o mouse em cima do btn */
+    background-color: #e39032;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#insta{
+    color: white;
+}
+
+.acesso-negado{
+    background-color: rgb(255, 0, 0);
+    margin: 0% 22%;
+}
+
+
+

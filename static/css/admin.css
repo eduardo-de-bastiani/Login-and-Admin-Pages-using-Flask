@@ -1,0 +1,46 @@
+@import url(../css/home.css);       /*importa o css da pagina de login */
+
+body{
+    background-image: url(/static/img/photo-1584968124544-d10ce10dd21f.avif);
+}
+
+.titulo{
+    backdrop-filter: blur(10px);
+    font-size: 35px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 30%;
+}
+
+.flash_alerta{
+    background-color: green;
+    margin: 0% 25%;
+}
+
+div#form_frente{
+    background-color: rgb(48, 143, 226);
+}
+
+div#form_fundo.lista_usuarios{
+    
+}
+
+div#form_frente.lista_usuarios{
+    font-weight: bold;
+    font-size: 20px;
+    overflow-y: scroll;
+    height: 250px;
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    background-color: rgb(12, 82, 132);
+}
+
+button:hover{
+    background-color: rgb(0, 187, 255);
+}
